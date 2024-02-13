@@ -1,5 +1,5 @@
 <div align="center">
-    <h2><p>UDP sockets</p></h1>
+    <h2><p>UDP Toqster</p></h1>
 </div>
 
 ```bash
@@ -17,19 +17,34 @@ This is for educational purposes only, i am not responsible for any damage you c
 apt update
 apt -y upgrade 
 
-pkg install git nodejs -y
-git clone https://github.com/IamToqst/udp-sockets
-cd udp-sockets
-npm install
+apt install git
+apt install python3
+git clone https://github.com/IamToqst/udp-toqster
+cd udp-toqster
+
 
 ```
+<div align="center">
+    <h2> <b>VPS/Linux Installation:</b> </h1>
+</div>
 
+```bash
+
+sudo apt update
+sudo apt upgrade 
+
+sudo apt install git
+sudo apt install python3
+git clone https://github.com/IamToqst/udp-toqster
+cd udp-toqster
+
+```
 <div align="center">
     <h2> <b>Usage:</b> </h1>
 </div>
 
 ```bash
-node . <address> <port> [<threads>] [<time>]
+python3 udp-toqster.py
 ```
 <div align="center">
     <h2><p>What's new?</p></h1>
