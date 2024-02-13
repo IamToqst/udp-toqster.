@@ -31,32 +31,20 @@ npm install
 ```bash
 node . <address> <port> [<threads>] [<time>]
 ```
-
-<div align="center">
-    <h2><p>Main owner:</p></h1>
-</div>
-
-```bash
-
-The main owner of this ddos script is LearXD and edited by IamToqst.
-
-Socials of LearXD:
- 
-Discord: LearXD#0001
-YouTube: https://youtube.com/@LearXD
-Github: https://github.com/LearXD
-```
-
 <div align="center">
     <h2><p>What's new?</p></h1>
 </div>
 
 ```bash
 
-The new thing in this edited UDP sockets ddos script is you can now ddos servers for days without timeouts.
+- Bypasses KyotoAPI anti-packets
+- Added themes, (Red and White)
+- Lets you adjust the packets to be sent to your target
+- Lets you adjust adjust the threads
+- Fixed all errors on stopping the script (CTRL+C)
 ```
 <div align="center">
-    <h2><p>Script editor:</p></h1>
+    <h2><p>IamToqst Socials:</p></h1>
 </div>
 
 ```bash
