@@ -30,8 +30,7 @@ cd udp-toqster
 
 ```bash
 
-sudo apt update
-sudo apt upgrade 
+sudo apt update && sudo apt upgrade
 
 sudo apt install git
 sudo apt install python3
@@ -68,7 +67,7 @@ The editor of this ddos script is IamToqst and the main owner of this ddos scrip
 
 Socials of IamToqst:
 
-Discord: IamToqst#0829
+Discord: IamToqst.
 YouTube: https://youtube.com/@IamToqst_
 GitHub: https://github.com/IamToqst
 ```
