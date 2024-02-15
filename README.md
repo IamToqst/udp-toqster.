@@ -63,11 +63,9 @@ python3 udp-toqster.py
 
 ```bash
 
-The editor of this ddos script is IamToqst and the main owner of this ddos script is LearXD.
-
 Socials of IamToqst:
 
 Discord: IamToqst.
-YouTube: https://youtube.com/@IamToqst_
+YouTube: https://youtube.com/@IamToqst
 GitHub: https://github.com/IamToqst
 ```
