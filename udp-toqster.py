@@ -11,6 +11,10 @@
 # A node program that sends floods on a server with internet traffic to prevent users from accessing connected online services and minecraft servers
 
 import os
+import random
+import sys
+import socket
+import threading
 
 # Clear the terminal
 os.system('clear' if os.name == 'posix' else 'cls')
@@ -120,4 +124,4 @@ def main():
         th.start()
 
 if __name__ == "__main__":
-main()
+    main()
