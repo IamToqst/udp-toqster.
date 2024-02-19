@@ -43,7 +43,7 @@ cd udp-toqster
 </div>
 
 ```bash
-python3 udp-toqster.py
+python udp-toqster.py
 ```
 <div align="center">
     <h2><p>What's new?</p></h1>
