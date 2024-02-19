@@ -16,7 +16,6 @@ import sys
 import socket
 import threading
 
-# Clear the terminal
 os.system('clear' if os.name == 'posix' else 'cls')
 
 def run(ip_run, port_run, times_run, threads_run):
@@ -61,7 +60,7 @@ def main():
     while True:
         try:
             port = int(input("\033[1;31m[#]\033[0m ""\033[1;37mEnter target port: \033[0m "))
-            break  # Exit the loop if conversion to int is successful
+            break
         except ValueError:
             print("\033[1;31m[!]\033[0m \033[1;37mInvalid input. Please enter a valid integer for the port.\033[0m")
         except KeyboardInterrupt:
@@ -73,7 +72,7 @@ def main():
             times_input = input("\033[1;31m[#]\033[0m ""\033[1;37mEnter packets per connection: \033[0m ")
             if times_input.strip():  # Check if the input is not empty
                 times = int(times_input)
-                break  # Exit the loop if conversion to int is successful
+                break
             else:
                 print("\033[1;31m[!]\033[0m \033[1;37mInvalid input. Please enter a valid integer for the packets.\033[0m")
         except ValueError:
@@ -85,9 +84,9 @@ def main():
     while True:
         try:
             threads_input = input("\033[1;31m[#]\033[0m ""\033[1;37mEnter number of threads: \033[0m ")
-            if threads_input.strip():  # Check if the input is not empty
+            if threads_input.strip(): 
                 threads = int(threads_input)
-                break  # Exit the loop if conversion to int is successful
+                break
             else:
                 print("\033[1;31m[!]\033[0m \033[1;37mInvalid input. Please enter a valid integer for the threads.\033[0m")
         except ValueError:
