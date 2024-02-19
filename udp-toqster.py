@@ -5,7 +5,8 @@
 # UDP-▀█▀ █▀█ █▀█ █▀ ▀█▀ █▀▀ █▀█
 #    ░█░ █▄█ ▀▀█ ▄█ ░█░ ██▄ █▀▄
 #description:
-# A tool lets you send udp flood on a serverx with internet traffic to prevent users from accessing connected online services and minecraft servers
+# A tool lets you send udp flood on servers with internet traffic to prevent users from accessing connected online services or minecraft servers.
+#notice: This is strongly for educational purposes only and for testing your ddos protection, I am not responsible for any damages you have or may caused.
 
 import os
 import random
