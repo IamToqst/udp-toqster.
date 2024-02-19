@@ -18,7 +18,7 @@ apt update
 apt -y upgrade 
 
 apt install git
-apt install python3
+apt install python
 git clone https://github.com/IamToqst/udp-toqster
 cd udp-toqster
 
@@ -33,7 +33,7 @@ cd udp-toqster
 sudo apt update && sudo apt upgrade
 
 sudo apt install git
-sudo apt install python3
+sudo apt install python
 git clone https://github.com/IamToqst/udp-toqster
 cd udp-toqster
 
