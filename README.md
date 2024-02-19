@@ -51,11 +51,13 @@ python udp-toqster.py
 
 ```bash
 
-- Bypasses KyotoAPI anti-packets
+- Bypasses API's with anti-packets
 - Added themes, (Red and White)
 - Lets you adjust the packets to be sent to your target
 - Lets you adjust adjust the threads
 - Fixed all errors on stopping the script (CTRL+C)
+- Added Domain resolver
+- Fixed the hostname issues
 ```
 <div align="center">
     <h2><p>IamToqst Socials:</p></h1>
