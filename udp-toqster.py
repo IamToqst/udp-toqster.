@@ -67,7 +67,7 @@ def main():
     if not is_valid_ipv4(target):
         try:
             ip = socket.gethostbyname(target)
-            print(f"\033[1;31m[+]\033[0m Resolved \033[1;38;2;255;100;100m{target}\033[1;37m to \033[1;38;2;255;100;100m{ip}\033[1;37m")
+            print(f"\033[1;31m[+]\033[0m Resolved \033[1;38;2;255;100;100m{target}\033[0m to \033[1;38;2;255;100;100m{ip}\033[1;37m")
         except socket.error as e:
             print("\033[1;31m[!]\033[0m \033[1;37mError resolving the target: {}\033[0m".format(e))
             sys.exit(1)
