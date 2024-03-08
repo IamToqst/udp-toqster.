@@ -75,3 +75,7 @@ Discord: IamToqst.
 YouTube: https://youtube.com/@IamToqst
 GitHub: https://github.com/IamToqst
 ```
+# Language used:
+Programming Languages used:
+
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=wh">
