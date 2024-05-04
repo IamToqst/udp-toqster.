@@ -9,13 +9,6 @@
 # warning: 
 # This is strongly for educational purposes only and for testing your ddos protection, I am not responsible for any damages you have or may cause.
 
-import os
-import random
-import sys
-import socket
-import threading
-import ipaddress
-
 os.system('clear' if os.name == 'posix' else 'cls')
 
 def is_valid_ipv4(ip):
