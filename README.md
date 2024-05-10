@@ -1,3 +1,7 @@
+# Notice!
+
+This tool does no longer works i removed some important codes on the script now it'll not work, I am retired from making flooding tools.
+
 # UDP Toqster
 
 A potent UDP flooding tool designed for stress testing network resilience and evaluating security measures.
