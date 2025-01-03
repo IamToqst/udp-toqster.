@@ -9,6 +9,7 @@
 # warning: 
 # This is strongly for educational purposes only and for testing your ddos protection, I am not responsible for any damages you have or may cause.
 
+import sys
 import os
 import ipaddress
 import random
